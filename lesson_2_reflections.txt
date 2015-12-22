@@ -1,4 +1,11 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Your working directory is where all your files are. The staging area is like a loading dock which stores stuff before you decide
-where it goes then decide if you want to commit the files which goes into your git,
+where it goes then decide if you want to commit the files which goes into your git.
+
+Working directory -> Staging area -> Repository (git commit)
+Files you're working on -> Files not yet commit -> Commits
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use git diff --staged
